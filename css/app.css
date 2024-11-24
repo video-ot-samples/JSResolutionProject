@@ -1,0 +1,41 @@
+body,
+html {
+  background-color: black;
+  height: 100%;
+}
+#videos {
+  position: relative;
+  width: 100%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#subscriber {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+#publisher {                    
+  position: absolute;
+  display: none;
+  width: 360px;
+  height: 240px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 100;
+  border: 3px solid white;
+  border-radius: 3px;
+}
+#publisherVideoDimensionWidth,
+#publisherVideoDimensionHeight,
+#publisherVideoWidth,
+#publisherVideoHeight,
+#subscriberVideoDimensionWidth,
+#subscriberVideoDimensionHeight,
+#subscriberVideoWidth,
+#subscriberVideoHeight {
+  color: white;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OpenTok Getting Started</title>
+    <link href="css/app.css" rel="stylesheet" type="text/css" />
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+  </head>
+  <body>
+    <div id="videos">
+      <div id="subscriber"></div>
+      <div id="publisher"></div>
+    </div>
+    <select id="resolutionSelect">
+      <option value="">Select Resolution</option>
+      <option value="1920x1080">1920x1080</option>
+      <option value="1280x720">1280x720</option>
+      <option value="640x480">640x480</option>
+      <option value="320x240">320x240</option>
+    </select>
+    <button id="publishButton">Publish</button>
+    <button id="subscribeButton">Subscribe</button>
+    <p id="publisherVideoDimensionWidth"></p>
+    <p id="publisherVideoDimensionHeight"></p>
+    <p id="publisherVideoWidth"></p>
+    <p id="publisherVideoHeight"></p>
+    <p id="subscriberVideoDimensionWidth"></p>
+    <p id="subscriberVideoDimensionHeight"></p>
+    <p id="subscriberVideoWidth"></p>
+    <p id="subscriberVideoHeight"></p>
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
